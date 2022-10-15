@@ -1,2 +1,22 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #042326;
+    color: white;
+}
+
+main{
+    background-color: #0F5959;
+    color: white;
+}
+
+footer{
+    background-color: #042326;
+    color: white;
+}
