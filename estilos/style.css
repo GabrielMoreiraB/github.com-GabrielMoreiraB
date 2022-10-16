@@ -4,7 +4,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 
 header{
@@ -13,10 +12,11 @@ header{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     
+    
 
 }
 header > img {
-    height: 250px;
+    height: 200px;
 }
  div#nome{
     font-family: 'Montserrat', sans-serif;
@@ -24,10 +24,45 @@ header > img {
     font-weight: bolder;
 }
 
-div#sobre > a{
-    font-weight: lighter;
+div#sobre{
+    margin: 10px;
+}
+
+div#sobre > a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: rgb(192, 225, 238);
+    width: 150px;
+    padding: 6px 25px 5px 25px;
+    border-radius: 5px;
+    background-color:rgb(221, 80, 80) ;
+    border: 2px solid rgb(236, 67, 67);
+}
+
+div#sobre > a:hover {
+    background-color: lightgray;
+    color: rgb(221, 80, 80);
+}
+div#midias  {
+    padding-bottom: 15px;
+    
+}
+
+div#midias > a > img {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+div#midias > a > img:hover{
+    border-radius: 50%;
+    border: 1px solid #21c0c0;
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 2px #107361;
+    transition: transform 0.3s, border 0.3s;
+    
 }
 
 main{
