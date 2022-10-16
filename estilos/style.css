@@ -6,8 +6,13 @@
     padding: 0px;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
 header{
-    background-color: #042326;
+    background-color: #0A3A40;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -66,11 +71,68 @@ div#midias > a > img:hover{
 }
 
 main{
-    background-color: #0F5959;
+    background-color: #1D7373;
     color: white;
+    height: 100vh;
+}
+main > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding: 30px;
+    width: 200px;  
 }
 
-footer{
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cards{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
     background-color: #042326;
+    border-radius: 5px;
+}
+
+.cards:hover{
+    box-shadow: 5px 5px 5px #00241d;
+}
+
+div.nomep{
+    padding: 12px;
+    text-align: center;
+    text-decoration:none;  
+    color: lightgray;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+div.img {
+    position: relative;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 230px;
+    width: 175px;
+    
+}
+#redessociais{
+    background-image: url(../imagens/redes-sociais.png);
+    background-size: cover;
+}
+
+#login{
+    background-image: url(../imagens/login.png);
+    background-size: cover;
+    background-position: center  ;
+}
+footer{
+    background-color: #0A3A40;
     color: white;
+    padding: 5px;
+    text-align: center;
 }
