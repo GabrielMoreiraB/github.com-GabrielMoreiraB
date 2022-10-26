@@ -134,6 +134,13 @@ div.img {
     background-size: cover;
     background-position: center  ;
 }
+
+#cordel{
+    background-image: url(../imagens/cordel.png);
+    background-size: cover;
+    background-position: center;
+
+}
 footer{
     background-color: #0A3A40;
     color: white;
