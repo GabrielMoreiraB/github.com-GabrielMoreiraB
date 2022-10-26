@@ -54,12 +54,16 @@ div#sobre > a:hover {
 div#midias  {
     padding-bottom: 15px;
     
+    
 }
+
+
 
 div#midias > a > img {
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
+    
 }
 div#midias > a > img:hover{
     border-radius: 50%;
