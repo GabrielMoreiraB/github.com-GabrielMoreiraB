@@ -29,15 +29,42 @@ header > img {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: bolder;
+
+    
 }
+
+h1#nome1 {
+    animation: appear 2s forwards
+}
+h1#nome2 {
+    animation: appear2 2s forwards
+}
+
+@keyframes appear {  /*criação de regra para animação, aparece e deslocar */
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }}
+
+@keyframes appear2 {  /*criação de regra para animação, aparece e deslocar */
+    0% {
+            transform: translateX(100px);
+            opacity: 0;
+    }
+    100% {
+            opacity: 1;
+    }}
 
 div#sobre{
     margin: 10px;
 }
 
 div#sobre > a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1em;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -54,6 +81,8 @@ div#sobre > a:hover {
     color: rgb(221, 80, 80);
 }
 div#midias  {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
     padding-bottom: 15px; 
 }
 
@@ -61,7 +90,7 @@ div#midias  {
 
 div#midias > a > img {
     margin: 10px;
-    padding: 5px;  
+    padding: 10px;  
     border-radius: 50%; 
     border: 1px solid #21c0c0; 
 }
@@ -79,8 +108,8 @@ main{
     height: 100vh;
 }
 main > h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
     padding: 30px;
     width: 200px;  
 }
@@ -103,7 +132,8 @@ section{
 }
 
 .cards:hover{
-    box-shadow: 5px 5px 5px #00241d;
+    box-shadow: 5px 5px 5px #f9f9f9;
+    transform: scale(1.1);
 }
 
 div.nomep{
@@ -121,23 +151,24 @@ div.img {
     transform: translate(-50%, -50%);
     height: 230px;
     width: 175px;
+    background-size: cover;
+    background-position: center;
     
 }
 #redessociais{
-    background-image: url(../imagens/redes-sociais.png);
-    background-size: cover;
+    background-image: url(../imagens/redes-sociais.png);   
 }
 
 #login{
     background-image: url(../imagens/login.png);
-    background-size: cover;
-    background-position: center  ;
 }
 
 #cordel{
     background-image: url(../imagens/cordel.png);
-    background-size: cover;
-    background-position: center;
+}
+
+#calendario{
+    background-image: url(../imagens/calendario\ copa.png);
 
 }
 footer{
@@ -145,4 +176,5 @@ footer{
     color: white;
     padding: 5px;
     text-align: center;
+    font-size: 0.8em;
 }
